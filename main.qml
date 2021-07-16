@@ -8,11 +8,18 @@ Window {
     width: 1250
     height: 950
     visible: true
-    title: "Tetris 0.0.1    pre "
+    title: "Tetris 0.1.1"
 
     property int scale: 25
     property int panelwidth: 25
     property int panelheight: 25
+
+    /* This is my first try to make famous game tetris. At least it work.*/
+    /* controls:
+      - <, > -- move left, right
+      - ^ -- rotate
+      - [space] -- force push down
+      */
 
     Text {
         x: 350
